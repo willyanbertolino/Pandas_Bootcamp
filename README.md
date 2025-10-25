@@ -17,10 +17,10 @@ It covers everything from beginner to advanced concepts, including:
 - Regex and text manipulation
 
 ## 💻 Repository Structure
-📁 Pandas-Bootcamp/
-├── 📒 notebooks/ # Jupyter notebooks from lessons
-├── 📂 data/ # Sample datasets
-├── 📂 projects/ # Personal or course projects
+📁 Pandas-Bootcamp/\
+├── 📒 notebooks/ # Jupyter notebooks from lessons\
+├── 📂 data/ # Sample datasets\
+├── 📂 projects/ # Personal or course projects\
 └── README.md # This file
 
 
@@ -41,13 +41,13 @@ It covers everything from beginner to advanced concepts, including:
 import pandas as pd
 
 df = pd.read_csv("data/sales.csv")
-df.groupby("region")["revenue"].sum().sort_values(ascending=False)
-
-🧑‍💻 Author
-[Bertolino, Willyan]
-📫 Connect on [![LinkedIn](https://www.linkedin.com/in/willyanhpbertolino/)
+df.groupby("region")["revenue"].sum().sort_values(ascending=False)```
 
 
-📚 Course: [![Udemy](https://www.udemy.com/share/1036lQ3@xNrVfYFzNkZqVi4zMJzVId-frtotTxieJL5HM1YWuMSsLffv6z3LEj0dyL39UmDWew==/)
+## 🧑‍💻 Author
+**Willyan Bertolino**  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/willyan-bertolino/)
+[![Udemy](https://img.shields.io/badge/Udemy-Course-blueviolet?style=flat-square&logo=udemy)](https://www.udemy.com/course/the-ultimate-pandas-bootcamp-advanced-python-data-analysis/)
 
 ⭐ This repository is for educational purposes only. All rights reserved by the original course author on Udemy.
