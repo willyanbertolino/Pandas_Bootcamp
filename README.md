@@ -41,8 +41,8 @@ It covers everything from beginner to advanced concepts, including:
 import pandas as pd
 
 df = pd.read_csv("data/sales.csv")
-df.groupby("region")["revenue"].sum().sort_values(ascending=False)```
-
+df.groupby("region")["revenue"].sum().sort_values(ascending=False)
+```
 
 ## 🧑‍💻 Author
 **Willyan Bertolino**  
